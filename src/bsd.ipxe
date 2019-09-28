@@ -9,7 +9,6 @@ iseq ${arch} x86_64 && set arch_a amd64 || set arch_a ${arch}
 
 # BSD based systems
 item --gap BSD Based Operating Systems
-item freebsd ${space} FreeBSD
 item mirbsd ${space} MirBSD (i386 only)
 item openbsd ${space} OpenBSD
 
