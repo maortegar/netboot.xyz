@@ -11,6 +11,7 @@ goto ${menu} ||
 :mageia
 set os Mageia
 menu Mageia - ${arch} - Image Sig Checks: [${img_sigs_enabled}]
+item 7 ${os} 7
 item 6 ${os} 6
 item 5 ${os} 5
 item 4 ${os} 4
