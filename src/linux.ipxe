@@ -6,7 +6,7 @@ goto ${menu} ||
 menu Linux Installers - Current Arch [ ${arch} ]
 iseq ${arch} x86_64 && set arch_a amd64 || set arch_a ${arch}
 item --gap Popular Linux Operating Systems:
-item archlinux ${space} Arch Linux
+iseq ${arch} x86_64 && item archlinux ${space} Arch Linux || item --gap ${space} Arch Linux is not available for ${arch}
 item centos ${space} CentOS
 item debian ${space} Debian
 item fedora ${space} Fedora
